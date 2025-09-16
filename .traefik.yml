@@ -1,0 +1,9 @@
+displayName: Traefik Role Guard
+
+type: middleware
+
+import: github.com/Buecherregale/traefik-role-guard
+summary: Guard a route based on a role in a header
+
+testData:
+  requiredRole: "USER"
